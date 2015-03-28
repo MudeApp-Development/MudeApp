@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class Sabiasque_Aprende extends ActionBarActivity {
@@ -12,6 +14,10 @@ public class Sabiasque_Aprende extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mudeapp_sabiasque__aprende);
+        TextView txtuno = (TextView)findViewById(R.id.txtuno);
+        txtuno.setText(R.string.sabiasqueuno);
+        ImageView imauno= (ImageView)findViewById(R.id.imasabias);
+        imauno.setImageResource(R.drawable.benitojuarez);
     }
 
 

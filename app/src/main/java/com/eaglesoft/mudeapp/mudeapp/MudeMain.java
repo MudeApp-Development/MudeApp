@@ -33,7 +33,7 @@ public class MudeMain extends FragmentActivity {
                 .getColor(R.color.white), 0 ,R.drawable.aprende,getString(R.string.galeria)));
         adapter.addFragment(SlidePageFragmentJuego.newInstance(getResources()
                 .getColor(R.color.white), 1, R.drawable.juega,getString(R.string.juega)));
-        adapter.addFragment(SlidePageFragment.newInstance(getResources()
+        adapter.addFragment(SlidePageFragmentSabiasque.newInstance(getResources()
                 .getColor(R.color.white), 2, R.drawable.sabiasque, getString(R.string.sabiasque)));
 
 

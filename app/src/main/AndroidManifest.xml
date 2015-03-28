@@ -31,7 +31,8 @@
         </activity>
         <activity
             android:name=".Sabiasque_Aprende"
-            android:label="@string/title_activity_sabiasque__aprende" >
+            android:label="@string/title_activity_sabiasque__aprende"
+            android:theme="@style/Theme.AppCompat.Light">
         </activity>
     </application>
 
