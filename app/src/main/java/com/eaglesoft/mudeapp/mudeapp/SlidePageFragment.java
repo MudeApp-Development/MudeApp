@@ -1,7 +1,5 @@
 package com.eaglesoft.mudeapp.mudeapp;
 
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v4.app.Fragment;
 import android.graphics.Color;
@@ -15,7 +13,7 @@ import android.widget.TextView;
 /**
  * Created by Vicente Hernandez on 28/03/2015.
  */
-public class SlidePageFragment extends Fragment{
+public class SlidePageFragment extends Fragment {
     private static final String BACKGROUND_COLOR = "color";
 
     /**
@@ -74,7 +72,6 @@ public class SlidePageFragment extends Fragment{
         // Show the current page index in the view
         TextView tvIndex = (TextView) rootView.findViewById(R.id.tvIndex);
         ImageView imagen = (ImageView) rootView.findViewById(R.id.imagen);
-
         tvIndex.setText(this.texto);
         imagen.setImageResource(this.image);
 
@@ -84,9 +81,4 @@ public class SlidePageFragment extends Fragment{
         return rootView;
 
     }
-
-
-
-
-    }
-
+}
