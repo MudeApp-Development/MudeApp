@@ -1,11 +1,8 @@
 package com.eaglesoft.mudeapp.mudeapp;
 
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.support.v4.app.Fragment;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +12,7 @@ import android.widget.TextView;
 /**
  * Created by Vicente Hernandez on 28/03/2015.
  */
-public class SlidePageFragment extends Fragment{
+public class SlidePageFragmentJuego extends Fragment {
     private static final String BACKGROUND_COLOR = "color";
 
     /**
@@ -30,10 +27,10 @@ public class SlidePageFragment extends Fragment{
     private int image;
     private String texto;
 
-    public static SlidePageFragment newInstance(int color, int index, int image, String texto) {
+    public static SlidePageFragmentJuego newInstance(int color, int index, int image, String texto) {
 
         // Instantiate a new fragment
-        SlidePageFragment fragment = new SlidePageFragment();
+        SlidePageFragmentJuego fragmentdos = new SlidePageFragmentJuego();
 
         // Save the parameters
         Bundle bundle = new Bundle();
@@ -41,10 +38,10 @@ public class SlidePageFragment extends Fragment{
         bundle.putInt(INDEX, index);
         bundle.putInt(IMAGE, image);
         bundle.putString(TEXTO, texto);
-        fragment.setArguments(bundle);
-        fragment.setRetainInstance(true);
+        fragmentdos.setArguments(bundle);
+        fragmentdos.setRetainInstance(true);
 
-        return fragment;
+        return fragmentdos;
 
     }
 
@@ -69,11 +66,11 @@ public class SlidePageFragment extends Fragment{
                              Bundle savedInstanceState) {
 
         ViewGroup rootView = (ViewGroup) inflater.inflate(
-                R.layout.fragment_aprende, container, false);
+                R.layout.fragment_juego, container, false);
 
         // Show the current page index in the view
-        TextView tvIndex = (TextView) rootView.findViewById(R.id.tvIndex);
-        ImageView imagen = (ImageView) rootView.findViewById(R.id.imagen);
+        TextView tvIndex = (TextView) rootView.findViewById(R.id.tvIndexdos);
+        ImageView imagen = (ImageView) rootView.findViewById(R.id.imagendos);
 
         tvIndex.setText(this.texto);
         imagen.setImageResource(this.image);
@@ -84,9 +81,4 @@ public class SlidePageFragment extends Fragment{
         return rootView;
 
     }
-
-
-
-
-    }
-
+}

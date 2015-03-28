@@ -1,11 +1,13 @@
 package com.eaglesoft.mudeapp.mudeapp;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MudeMain extends FragmentActivity {
@@ -29,10 +31,11 @@ public class MudeMain extends FragmentActivity {
 
         adapter.addFragment(SlidePageFragment.newInstance(getResources()
                 .getColor(R.color.white), 0 ,R.drawable.aprende,getString(R.string.galeria)));
-        adapter.addFragment(SlidePageFragment.newInstance(getResources()
+        adapter.addFragment(SlidePageFragmentJuego.newInstance(getResources()
                 .getColor(R.color.white), 1, R.drawable.juega,getString(R.string.juega)));
         adapter.addFragment(SlidePageFragment.newInstance(getResources()
                 .getColor(R.color.white), 2, R.drawable.sabiasque, getString(R.string.sabiasque)));
+
 
         this.pager.setAdapter(adapter);
     }
@@ -66,5 +69,20 @@ public class MudeMain extends FragmentActivity {
             super.onBackPressed();
         else
             this.pager.setCurrentItem(this.pager.getCurrentItem() - 1);
+    }
+    public void Showgaleria(View show)
+    {
+        Intent showpage = new Intent(this, Galeria_Aprende.class);
+        startActivity(showpage);
+    }
+    public void Showjuego(View show)
+    {
+        Intent showpage = new Intent(this, Juega_Aprende.class);
+        startActivity(showpage);
+    }
+    public void Showsabiasque(View show)
+    {
+        Intent showpage = new Intent(this, Sabiasque_Aprende.class);
+        startActivity(showpage);
     }
 }

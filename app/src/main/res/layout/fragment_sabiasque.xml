@@ -4,16 +4,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <ImageView
-        android:id="@+id/imagen"
+        android:id="@+id/imagentres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50pt"
         android:gravity="center"
-        android:onClick="Showgaleria"/>
+        android:onClick="Showsabiasque"/>
     <TextView
-        android:id="@+id/tvIndex"
+        android:id="@+id/tvIndextres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"

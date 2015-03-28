@@ -25,6 +25,14 @@
             android:name=".Galeria_Aprende"
             android:label="@string/title_activity_galeria__aprende" >
         </activity>
+        <activity
+            android:name=".Juega_Aprende"
+            android:label="@string/title_activity_juega__aprende" >
+        </activity>
+        <activity
+            android:name=".Sabiasque_Aprende"
+            android:label="@string/title_activity_sabiasque__aprende" >
+        </activity>
     </application>
 
 </manifest>
