@@ -1,17 +1,38 @@
 package com.eaglesoft.mudeapp.mudeapp;
 
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MudeMain extends ActionBarActivity {
+public class MudeMain extends FragmentActivity {
+
+    ViewPager pager = null;
+
+
+    MyFragPageAdapter pagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mudeapp_main);
+
+        // Instantiate a ViewPager
+        this.pager = (ViewPager) this.findViewById(R.id.pager);
+
+        // Create an adapter with the fragments we show on the ViewPager
+        MyFragPageAdapter adapter = new MyFragPageAdapter(
+                getSupportFragmentManager());
+
+        adapter.addFragment(SlidePageFragment.newInstance(getResources()
+                .getColor(R.color.purple), 0));
+        adapter.addFragment(SlidePageFragment.newInstance(getResources()
+                .getColor(R.color.pink), 1));
+
+        this.pager.setAdapter(adapter);
     }
 
 
@@ -35,5 +56,13 @@ public class MudeMain extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (this.pager.getCurrentItem() == 0)
+            super.onBackPressed();
+        else
+            this.pager.setCurrentItem(this.pager.getCurrentItem() - 1);
     }
 }
