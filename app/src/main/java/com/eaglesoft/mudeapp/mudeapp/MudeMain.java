@@ -1,39 +1,24 @@
 package com.eaglesoft.mudeapp.mudeapp;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Mude_Portada extends ActionBarActivity {
+public class MudeMain extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mudeapp__portada);
-
-        Thread splash = new Thread(){
-            public void run(){
-                try{
-                    sleep(3000);
-                }catch(Exception e){
-                    e.printStackTrace();
-                }finally{
-                    startActivity(new Intent(getApplicationContext(),MudeMain.class));
-                    finish();
-                }
-            }
-        };
-        splash.start();
+        setContentView(R.layout.mudeapp_main);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_mude__portada, menu);
+        getMenuInflater().inflate(R.menu.menu_mude_main, menu);
         return true;
     }
 
