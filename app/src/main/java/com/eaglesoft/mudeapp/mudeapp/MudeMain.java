@@ -28,9 +28,11 @@ public class MudeMain extends FragmentActivity {
                 getSupportFragmentManager());
 
         adapter.addFragment(SlidePageFragment.newInstance(getResources()
-                .getColor(R.color.purple), 0));
+                .getColor(R.color.white), 0 ,R.drawable.aprende,getString(R.string.galeria)));
         adapter.addFragment(SlidePageFragment.newInstance(getResources()
-                .getColor(R.color.pink), 1));
+                .getColor(R.color.white), 1, R.drawable.juega,getString(R.string.juega)));
+        adapter.addFragment(SlidePageFragment.newInstance(getResources()
+                .getColor(R.color.white), 2, R.drawable.sabiasque, getString(R.string.sabiasque)));
 
         this.pager.setAdapter(adapter);
     }

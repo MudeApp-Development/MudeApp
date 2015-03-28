@@ -5,5 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_mude_main">MudeMain</string>
+    <string name="galeria">Practica y Aprende</string>
+    <string name="juega">Diviertete y Aprende</string>
+    <string name="sabiasque">Explora Los Datos Mas Curiosos</string>
 
 </resources>

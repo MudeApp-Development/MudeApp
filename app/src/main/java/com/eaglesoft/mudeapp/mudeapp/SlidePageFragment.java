@@ -20,11 +20,15 @@ public class SlidePageFragment extends Fragment {
      * Key to insert the index page into the mapping of a Bundle.
      */
     private static final String INDEX = "index";
+    private static final String IMAGE = "image";
+    private static final String TEXTO = "texto";
 
     private int color;
     private int index;
+    private int image;
+    private String texto;
 
-    public static SlidePageFragment newInstance(int color, int index) {
+    public static SlidePageFragment newInstance(int color, int index, int image, String texto) {
 
         // Instantiate a new fragment
         SlidePageFragment fragment = new SlidePageFragment();
@@ -33,6 +37,8 @@ public class SlidePageFragment extends Fragment {
         Bundle bundle = new Bundle();
         bundle.putInt(BACKGROUND_COLOR, color);
         bundle.putInt(INDEX, index);
+        bundle.putInt(IMAGE, image);
+        bundle.putString(TEXTO, texto);
         fragment.setArguments(bundle);
         fragment.setRetainInstance(true);
 
@@ -49,6 +55,10 @@ public class SlidePageFragment extends Fragment {
                 BACKGROUND_COLOR) : Color.GRAY;
         this.index = (getArguments() != null) ? getArguments().getInt(INDEX)
                 : -1;
+        this.image = (getArguments() != null) ? getArguments().getInt(IMAGE)
+                : -1;
+        this.texto = (getArguments() != null) ? getArguments().getString(TEXTO)
+                : "";
 
     }
 
@@ -62,8 +72,8 @@ public class SlidePageFragment extends Fragment {
         // Show the current page index in the view
         TextView tvIndex = (TextView) rootView.findViewById(R.id.tvIndex);
         ImageView imagen = (ImageView) rootView.findViewById(R.id.imagen);
-        tvIndex.setText(String.valueOf(this.index));
-        //imagen.setImageResource(R.drawable.aprende);
+        tvIndex.setText(this.texto);
+        imagen.setImageResource(this.image);
 
         // Change the background color
         rootView.setBackgroundColor(this.color);
