@@ -23,20 +23,47 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F5A9E1"
+        android:text="¿Sabias que..."
         android:textIsSelectable="false"
-        android:textSize="70sp"/>
+        android:textSize="50sp"/>
+
+            <ImageView
+                android:id="@+id/imasabias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
             <TextView
                 android:id="@+id/txtuno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30sp"
+                android:layout_marginBottom="30sp"
                 android:textColor="#F5A9E1"
                 android:textIsSelectable="false"
                 android:textSize="20sp"/>
-    <ImageView
-        android:id="@+id/imasabias"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imasabiasdos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtdos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30sp"
+                android:textColor="#F5A9E1"
+                android:textIsSelectable="false"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imasabiastres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txttres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F5A9E1"
+                android:layout_marginBottom="30sp"
+                android:textIsSelectable="false"
+                android:textSize="20sp"/>
+
 
 </LinearLayout>
     </ScrollView>

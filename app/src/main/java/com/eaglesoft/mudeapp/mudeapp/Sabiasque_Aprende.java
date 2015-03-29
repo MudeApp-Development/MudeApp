@@ -15,9 +15,17 @@ public class Sabiasque_Aprende extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mudeapp_sabiasque__aprende);
         TextView txtuno = (TextView)findViewById(R.id.txtuno);
+        TextView txtdos = (TextView)findViewById(R.id.txtdos);
+        TextView txttres = (TextView)findViewById(R.id.txttres);
         txtuno.setText(R.string.sabiasqueuno);
+        txtdos.setText(R.string.sabiasquedos);
+        txttres.setText(R.string.sabiasquetres);
         ImageView imauno= (ImageView)findViewById(R.id.imasabias);
+        ImageView imados= (ImageView)findViewById(R.id.imasabiasdos);
+        ImageView imatres= (ImageView)findViewById(R.id.imasabiastres);
         imauno.setImageResource(R.drawable.benitojuarez);
+        imados.setImageResource(R.drawable.koko);
+        imatres.setImageResource(R.drawable.mundo);
     }
 
 
