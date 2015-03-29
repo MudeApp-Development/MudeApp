@@ -43,15 +43,15 @@ public class Galeria_Aprende extends ActionBarActivity {
         startActivity(i);
     }
     public void animal(View v) {
-        Intent i = new Intent(this, GaleAbc.class);
+        Intent i = new Intent(this, GaleAnima.class);
         startActivity(i);
     }
     public void casa(View v) {
-        Intent i = new Intent(this, GaleAbc.class);
+        Intent i = new Intent(this, GaleCasa.class);
         startActivity(i);
     }
     public void dias(View v) {
-        Intent i = new Intent(this, GaleAbc.class);
+        Intent i = new Intent(this, GaleDias.class);
         startActivity(i);
     }
 }
