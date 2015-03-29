@@ -8,11 +8,22 @@
     <string name="galeria">Practica y Aprende</string>
     <string name="juega">Diviertete y Aprende</string>
     <string name="sabiasque">Explora Los Datos Mas Curiosos</string>
-    <string name="title_activity_galeria__aprende">Galeria_Aprende</string>
-    <string name="title_activity_juega__aprende">Juega_Aprende</string>
-    <string name="title_activity_sabiasque__aprende">Sabiasque_Aprende</string>
+    <string name="title_activity_galeria__aprende">Aprende</string>
+    <string name="title_activity_juega__aprende">Diviertete Aprendiendo</string>
+    <string name="title_activity_sabiasque__aprende">¿Lo Sabias?</string>
     <string name="sabiasqueuno">En 1867 se fundó la primera Escuela Nacional de Sordomudos en México por decreto del
                                 Presidente Benito Juárez, quien tenía especial afecto por los sordos.</string>
+    <string name="sabiasquedos">Ella es Washoe, la famosa chimpancé de la cual se cuenta que en la década de 1960 aprendió señas
+                                de la lengua de los sordos de los EEUU, y desafió con eso la creencia de que solamente los
+                                seres humanos podíamos comunicarnos lingüísticamente</string>
+    <string name="sabiasquetres">¿Sabías Qué al igual que las lenguas orales, el lenguaje de señas no son universales pues cada país
+                                 dependiendo de su historia tiene una lengua propia y que contamos entonces con 110 lenguas de signos
+                                 diferentes registradas en todo el mundo?</string>
+    <string name="acercadenosotros">MudApp es una aplicación para aprender lenguaje de señas mexicanas,
+                                    enfocado para llevar una comunicación más completa,
+                                    con las personas que tienen problemas auditivos</string>
+    <string name="agradecimientos">Agradecemos ampliamente a todo el personal docente del Instituto Tecnológico De Aguascalientes que
+                                estuvo involucrado directa o indirectamente en el desarrollo de MudApp </string>
 
 
 </resources>
