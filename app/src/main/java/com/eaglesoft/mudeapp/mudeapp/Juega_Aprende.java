@@ -1,10 +1,12 @@
 package com.eaglesoft.mudeapp.mudeapp;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class Juega_Aprende extends ActionBarActivity {
@@ -49,4 +51,10 @@ public class Juega_Aprende extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public void test(View view){
+        Intent i = new Intent(this, Juegouno.class);
+        startActivity(i);
+    }
+
 }

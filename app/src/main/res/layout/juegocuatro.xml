@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/o"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presiona La Respuesta Correcta"
+        android:layout_gravity="center_horizontal"
+        android:padding="1dp"
+        android:textColor="#f66868"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/respuestasiete"
+        android:onClick="respuestaIncorrecta"
+        android:background="#ffe4e1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffe4e1"
+        android:text="O"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/respuestaocho"
+        android:onClick="respuestaCorrecta"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffe4e1"
+        android:text="P"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/respuestanueve"
+        android:onClick="respuestaIncorrecta"/>
+
+</LinearLayout>

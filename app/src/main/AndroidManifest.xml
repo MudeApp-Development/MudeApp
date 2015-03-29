@@ -50,6 +50,46 @@
             android:name=".GaleDias"
             android:theme="@style/AppThemeNoBar">
         </activity>
+        <activity
+            android:name=".Juegouno"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegodos"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegotres"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegocuatro"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegocinco"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegoseis"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegosiete"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".JuegoOcho"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegonueve"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".Juegodiez"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
     </application>
 
 </manifest>
