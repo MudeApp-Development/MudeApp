@@ -34,6 +34,22 @@
             android:label="@string/title_activity_sabiasque__aprende"
             android:theme="@style/Theme.AppCompat.Light">
         </activity>
+        <activity
+            android:name=".GaleAbc"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".GaleAnima"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".GaleCasa"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+        <activity
+            android:name=".GaleDias"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
     </application>
 
 </manifest>

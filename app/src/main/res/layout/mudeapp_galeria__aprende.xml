@@ -6,7 +6,43 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.eaglesoft.mudeapp.mudeapp.Galeria_Aprende">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ImageButton
+        android:layout_width="80pt"
+        android:layout_height="125pt"
+        android:id="@+id/abc"
+        android:src="@drawable/a"
+        android:onClick="abecedario"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="80pt"
+        android:layout_height="125pt"
+        android:id="@+id/pal"
+        android:src="@drawable/b"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/abc"
+        android:onClick="animal"
+        android:layout_toEndOf="@+id/abc" />
+    <ImageButton
+        android:layout_width="80pt"
+        android:layout_height="125pt"
+        android:id="@+id/casa"
+        android:src="@drawable/c"
+        android:layout_below="@+id/abc"
+        android:onClick="casa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="80pt"
+        android:layout_height="125pt"
+        android:id="@+id/anima"
+        android:src="@drawable/d"
+        android:layout_below="@+id/abc"
+        android:layout_alignRight="@+id/pal"
+        android:onClick="dias"
+        android:layout_alignEnd="@+id/pal" />
+
+
 
 </RelativeLayout>
