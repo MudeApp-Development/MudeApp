@@ -8,9 +8,9 @@
     <string name="galeria">Practica y Aprende</string>
     <string name="juega">Diviertete y Aprende</string>
     <string name="sabiasque">Explora Los Datos Mas Curiosos</string>
-    <string name="title_activity_galeria__aprende">Galeria_Aprende</string>
-    <string name="title_activity_juega__aprende">Juega_Aprende</string>
-    <string name="title_activity_sabiasque__aprende">Sabiasque_Aprende</string>
+    <string name="title_activity_galeria__aprende">Aprende</string>
+    <string name="title_activity_juega__aprende">Diviertete Aprendiendo</string>
+    <string name="title_activity_sabiasque__aprende">¿Lo Sabias?</string>
     <string name="sabiasqueuno">En 1867 se fundó la primera Escuela Nacional de Sordomudos en México por decreto del
                                 Presidente Benito Juárez, quien tenía especial afecto por los sordos.</string>
     <string name="sabiasquedos">Ella es Washoe, la famosa chimpancé de la cual se cuenta que en la década de 1960 aprendió señas
