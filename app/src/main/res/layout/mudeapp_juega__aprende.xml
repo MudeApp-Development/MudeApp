@@ -2,7 +2,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.eaglesoft.mudeapp.mudeapp.Juega_Aprende">
+    android:orientation="vertical"
+    tools:context="com.eaglesoft.mudeapp.mudeapp.Juega_Aprende"
+    android:background="#C6FFD6">
+
+    <TextView
+        android:id="@+id/txtmemorama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:textColor="#F5A9E1"
+        android:textIsSelectable="false"
+        android:textSize="30sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtpreguntados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:textColor="#F5A9E1"
+        android:textIsSelectable="false"
+        android:textSize="30sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 
