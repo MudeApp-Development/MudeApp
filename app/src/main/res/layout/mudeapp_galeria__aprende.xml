@@ -7,8 +7,8 @@
     tools:context="com.eaglesoft.mudeapp.mudeapp.Galeria_Aprende">
 
     <ImageButton
-        android:layout_width="80pt"
-        android:layout_height="125pt"
+        android:layout_width="150dp"
+        android:layout_height="260dp"
         android:id="@+id/abc"
         android:src="@drawable/a"
         android:onClick="abece"
@@ -16,17 +16,17 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <ImageButton
-        android:layout_width="80pt"
-        android:layout_height="125pt"
+        android:layout_width="150dp"
+        android:layout_height="260dp"
         android:id="@+id/pal"
         android:src="@drawable/b"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/abc"
         android:onClick="animal"
-        android:layout_toEndOf="@+id/abc" />
+        android:layout_above="@+id/casa"
+        android:layout_toRightOf="@+id/casa"
+        android:layout_toEndOf="@+id/casa" />
     <ImageButton
-        android:layout_width="80pt"
-        android:layout_height="125pt"
+        android:layout_width="150dp"
+        android:layout_height="260dp"
         android:id="@+id/casa"
         android:src="@drawable/c"
         android:layout_below="@+id/abc"
@@ -34,14 +34,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <ImageButton
-        android:layout_width="80pt"
-        android:layout_height="125pt"
+        android:layout_width="150dp"
+        android:layout_height="260dp"
         android:id="@+id/dias"
         android:src="@drawable/d"
-        android:layout_below="@+id/abc"
-        android:layout_alignRight="@+id/pal"
         android:onClick="dias"
-        android:layout_alignEnd="@+id/pal" />
+        android:layout_below="@+id/abc"
+        android:layout_toRightOf="@+id/casa"
+        android:layout_toEndOf="@+id/casa" />
 
 
 
