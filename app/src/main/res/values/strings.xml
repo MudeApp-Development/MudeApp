@@ -19,6 +19,11 @@
     <string name="sabiasquetres">¿Sabías Qué al igual que las lenguas orales, el lenguaje de señas no son universales pues cada país
                                  dependiendo de su historia tiene una lengua propia y que contamos entonces con 110 lenguas de signos
                                  diferentes registradas en todo el mundo?</string>
+    <string name="acercadenosotros">MudApp es una aplicación para aprender lenguaje de señas mexicanas,
+                                    enfocado para llevar una comunicación más completa,
+                                    con las personas que tienen problemas auditivos</string>
+    <string name="agradecimientos">Agradecemos ampliamente a todo el personal docente del Instituto Tecnológico De Aguascalientes que
+                                estuvo involucrado directa o indirectamente en el desarrollo de MudApp </string>
 
 
 </resources>
