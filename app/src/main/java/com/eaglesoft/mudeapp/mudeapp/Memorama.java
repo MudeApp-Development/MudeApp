@@ -1,10 +1,12 @@
 package com.eaglesoft.mudeapp.mudeapp;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -79,6 +81,7 @@ public class Memorama extends ActionBarActivity implements View.OnClickListener 
         return c;
     }
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     public void asignarBackGround(Button[] botones){
         //Solo asigna el fondo de cada boton al inicio
         Bitmap foto = BitmapFactory.decodeResource(getResources(), R.drawable.reves);
@@ -91,6 +94,7 @@ public class Memorama extends ActionBarActivity implements View.OnClickListener 
     }
 
     //
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onClick(View v) {
         int pos = -1;
@@ -139,6 +143,7 @@ public class Memorama extends ActionBarActivity implements View.OnClickListener 
     public Runnable getRun(final View w, final int i, final int iAnt){
         Runnable elrun;
         elrun = new Runnable() {
+            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             public void run() {
 
                 if(lasCartas[i].getParner() == lasCartas[iAnt].getParner()){
