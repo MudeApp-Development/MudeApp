@@ -61,7 +61,7 @@ public class Memorama extends ActionBarActivity implements View.OnClickListener 
 
     public Carta[] findCartas() {
         Carta[] c = new Carta[12];
-
+        //las cartas
         c[0] = new Carta(R.drawable.a, getResources(),0);
         c[1] = new Carta(R.drawable.ac, getResources(),0);
         c[2] = new Carta(R.drawable.c, getResources(),1);
