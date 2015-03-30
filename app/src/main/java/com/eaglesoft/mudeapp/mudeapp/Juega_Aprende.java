@@ -7,16 +7,27 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 
 public class Juega_Aprende extends ActionBarActivity {
-
+    ImageButton btnMemorama;
     public static int acerca = 0;
     public static int agrax = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mudeapp_juega__aprende);
+        btnMemorama = (ImageButton) findViewById(R.id.imageButton);
+        btnMemorama.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =
+                        new Intent(Juega_Aprende.this, Memorama.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

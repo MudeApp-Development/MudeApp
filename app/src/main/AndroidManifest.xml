@@ -32,63 +32,67 @@
         <activity
             android:name=".Sabiasque_Aprende"
             android:label="@string/title_activity_sabiasque__aprende"
-            android:theme="@style/Theme.AppCompat.Light">
+            android:theme="@style/Theme.AppCompat.Light" >
         </activity>
         <activity
             android:name=".GaleAbc"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".GaleAnima"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".GaleCasa"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".GaleDias"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegouno"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegodos"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegotres"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegocuatro"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegocinco"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegoseis"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegosiete"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".JuegoOcho"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegonueve"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
         </activity>
         <activity
             android:name=".Juegodiez"
-            android:theme="@style/AppThemeNoBar">
+            android:theme="@style/AppThemeNoBar" >
+        </activity>
+        <activity
+            android:name=".Memorama"
+            android:label="@string/title_activity_memorama" >
         </activity>
     </application>
 
